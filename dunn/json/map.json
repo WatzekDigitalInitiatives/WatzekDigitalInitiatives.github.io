@@ -1,0 +1,28 @@
+var mapdata={
+  "chapters": {
+    "chap1": [
+      {
+        "location": "Rose Garden, Portland, OR",
+        "center": "45.518955, -122.705305",
+        "zoom": "20"
+      },
+      {
+        "location": "Ft. Lauderdale, FL",
+        "center": "26.125279, -80.139676",
+        "zoom": "15"
+      }
+    ],
+    "chap2": [
+      {
+        "location": "Vista Avenue, Portland, OR",
+        "center": "45.515237, -122.697369",
+        "zoom": "18"
+      },
+      {
+        "location": "Kearney Street, Portland, OR",
+        "center": "45.529460, -122.691548",
+        "zoom": "25"
+      }
+    ]
+  }
+}
