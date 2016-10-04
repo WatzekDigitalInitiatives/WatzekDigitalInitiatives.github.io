@@ -75,14 +75,14 @@
                     </div>
                 </div>
                 <div class="row">
-  					<div class="col-xs-12 col-md-8">
+  					<div class="col-xs-6 col-md-4">
   						<div id="map"></div>
   					</div>
-  					<div class="col-xs-6 col-md-4" id="docs">.col-xs-6 .col-md-4</div>
+  					<div class="col-xs-12 col-md-8" id="docs">.col-xs-6 .col-md-4</div>
 				</div>
-                   
-                
-                
+
+
+
             </div>
         </div>
         <!-- /#page-content-wrapper -->
@@ -96,6 +96,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+<script src="json/map.json"></script>
 	<!-- Google Maps-->
 	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTeqkHUX_Lj10X9L06dmzUgp7yNGbMfZ8&callback=initMap"
     async defer></script>
@@ -103,31 +104,52 @@
 
     <!-- Menu Toggle Script -->
     <script>
+
+
+
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-    
-    
+
+
       function initMap(){
-  		var map
+  		//var map
   		console.log("map");
   	  	map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -34.397, lng: 150.644},
           zoom: 8
         });
   	  }
-  	  
+
   	  $("ul.chapters li a").click(function(){
   	  	id=$(this).attr("id");
   	  	console.log(id);
-  	  	
+        console.log(mapdata);
+
+        chapters=mapdata.chapters;
+        chap=chapters[id];
+        console.log(chap);
+        zoom=Number(chapters[id][0].zoom);
+        center=chapters[id][0].center;
+        coords=center.split(",");
+        lat=coords[0];
+        lng=coords[1];
+
+
+        gMap = new google.maps.Map(document.getElementById('map'));
+        gMap.setZoom(zoom);      // This will trigger a zoom_changed on the map
+        gMap.setCenter(new google.maps.LatLng(lat, lng));
+        gMap.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+
+
   	  	$("#docs").html("<div class='jumbotron'>"+id+"</div>");
-  	  
-  	  
+        $("#docs").load("html/chap1.html");
+
+
   	  });
-  	  
-    
+
+
     </script>
 
 </body>
