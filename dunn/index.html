@@ -75,10 +75,10 @@
                     </div>
                 </div>
                 <div class="row">
-  					<div class="col-xs-12 col-md-8">
+  					<div class="col-xs-6 col-md-4">
   						<div id="map"></div>
   					</div>
-  					<div class="col-xs-6 col-md-4" id="docs">.col-xs-6 .col-md-4</div>
+  					<div class="col-xs-12 col-md-8" id="docs">.col-xs-6 .col-md-4</div>
 				</div>
 
 
@@ -135,17 +135,16 @@
         coords=center.split(",");
         lat=coords[0];
         lng=coords[1];
-        console.log(lat);
-        latlng={lat: lat, lng: lng};
-        //console.log(map);
-      //  var latlng = new google.maps.LatLng(center);
 
-        map.set('zoom', zoom);
-        map.set('center', {lat: lat, lng: lng})
 
-        //map.setOptions({zoom:zoom, center:latlng});
+        gMap = new google.maps.Map(document.getElementById('map'));
+        gMap.setZoom(zoom);      // This will trigger a zoom_changed on the map
+        gMap.setCenter(new google.maps.LatLng(lat, lng));
+        gMap.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+
 
   	  	$("#docs").html("<div class='jumbotron'>"+id+"</div>");
+        $("#docs").load("html/chap1.html");
 
 
   	  });
