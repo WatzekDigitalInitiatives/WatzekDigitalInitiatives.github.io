@@ -50,6 +50,8 @@
 $('#myCarousel').on('slide.bs.carousel', function () {
 
 		currentIndex = $('div.active').index();
+		var totalItems = $('.item').length;
+		console.log(totalItems);
 		console.log(currentIndex);
   	  	id="chap1";
 
