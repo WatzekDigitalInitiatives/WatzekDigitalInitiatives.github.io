@@ -28,10 +28,10 @@
           center: {lat: 45.5231, lng: -122.6765}
         });
 
-        var ctaLayer = new google.maps.KmlLayer({
-          url: 'https://watzekdigitalinitiatives.github.io/maps/HistoricalPortland.kmz',
-          map: map
-        });
+		var kmzLayer = new google.maps.KmlLayer('https://watzekdigitalinitiatives.github.io/maps/HistoricalPortland.kmz');
+		kmzLayer.setMap(map);
+
+
       }
     </script>
     <script async defer
