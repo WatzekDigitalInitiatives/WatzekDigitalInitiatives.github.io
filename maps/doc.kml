@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Historical Portland</name>
+	<open>1</open>
+	<NetworkLink>
+		<name>portland 1901</name>
+		<visibility>0</visibility>
+		<Link>
+			<href>http://52.11.226.237:8080/geoserver/wms/kml?layers=PDX:Portland_1901_geotiff&amp;mode=superoverlay&amp;superoverlay_mode=raster</href>
+		</Link>
+	</NetworkLink>
+	<NetworkLink>
+		<name>portland 1921</name>
+		<visibility>0</visibility>
+		<Link>
+			<href>http://52.11.226.237:8080/geoserver/wms/kml?layers=PDX:portland_1921_geotiff&amp;mode=superoverlay&amp;superoverlay_mode=raster</href>
+		</Link>
+	</NetworkLink>
+	<NetworkLink>
+		<name>HOLC</name>
+		<Link>
+			<href>http://52.11.226.237:8080/geoserver/wms/kml?layers=PDX:HOLC_Portland</href>
+		</Link>
+	</NetworkLink>
+</Folder>
+</kml>
