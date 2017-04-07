@@ -8,7 +8,7 @@
 }
 </style>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -47,7 +47,23 @@
 </div>
 
 <script>
-$('#myCarousel').on('slide.bs.carousel', function () {
+
+/*
+$('#myCarousel').on('slide',function(e){
+    var slideFrom = $(this).find('.active').index();
+    var slideTo = $(e.relatedTarget).index();
+    console.log(slideFrom+' => '+slideTo);
+});
+*/
+
+
+$('#myCarousel').on('slide.bs.carousel', function (e) {
+
+
+    var slideFrom = $(this).find('.active').index();
+    var slideTo = $(e.relatedTarget).index();
+    //console.log(slideFrom+' => '+slideTo);
+
 
 		currentIndex = $('div.active').index();
 		var totalItems = $('.item').length;
@@ -62,11 +78,13 @@ $('#myCarousel').on('slide.bs.carousel', function () {
         
         console.log("id: "+id+", currentIndex: "+currentIndex);
         
-        zoom=Number(chapters[id][currentIndex].zoom);
-        center=chapters[id][currentIndex].center;
+        zoom=Number(chapters[id][slideTo].zoom);
+        loc=chapters[id][slideTo].location;
+        center=chapters[id][slideTo].center;
         coords=center.split(",");
         lat=coords[0];
         lng=coords[1];
+        $("#location").html(loc);
 
 
         gMap = new google.maps.Map(document.getElementById('map'));
