@@ -22,8 +22,8 @@
           // and the element must have CSS styling to give it width and height
           // optionally, a third argument with configuration options can be passed.
           // See below for more about options.
-          timeline = new TL.Timeline('timeline-embed',
-            'https://docs.google.com/spreadsheets/d/e/2PACX-1vRoqsbnPy9p8NWqai6UauWDMYTkilUOM08RfyBCA6K07u4wvwSpVpqZYzkuNe9TasY0GTtyfKKvMa5V/pubhtml');
+          var json = require('lctimeline.json');
+          timeline = new TL.Timeline('timeline-embed', json);
         </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   </body>
