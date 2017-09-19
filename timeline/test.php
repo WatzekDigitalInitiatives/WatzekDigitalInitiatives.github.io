@@ -7,7 +7,7 @@ if (($handle = fopen("src.csv", "r")) !== FALSE) {
         $row++;
         for ($c=0; $c < $num; $c++) {
             echo "$c : ".$data[$c] . "<br />\n";
-            if ($c==11){
+            if ($c==17){
               $url=$data[$c];
               $d=explode("/",$url);
               $im=array_pop($d);

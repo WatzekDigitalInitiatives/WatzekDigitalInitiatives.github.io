@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html class="summer" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A collection of digital content from the collections of the Lewis &amp; Clark College Special Collection and Archives.">
+    
+        <title>Log In &middot; Lewis &amp; Clark Digital Collections</title>
+
+    <link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="/items/browse/3ba250c8428046fba223bc2db252f0f5.jpg_/?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="/items/browse/3ba250c8428046fba223bc2db252f0f5.jpg_/?output=atom" />
+    <!-- Plugin Stuff -->
+    
+    <!-- Stylesheets -->
+    <link href="http://digitalcollections.lclark.edu/plugins/OpenSeadragon/views/shared/openseadragon/openseadragon.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="http://digitalcollections.lclark.edu/plugins/Commenting/views/public/css/commenting.css" media="all" rel="stylesheet" type="text/css" >
+<link href="http://digitalcollections.lclark.edu/plugins/Html5Media/views/shared/mediaelement/mediaelementplayer.css" media="all" rel="stylesheet" type="text/css" >
+<link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" media="all" rel="stylesheet" type="text/css" >
+<link href="http://digitalcollections.lclark.edu/application/views/scripts/css/iconfonts.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="http://digitalcollections.lclark.edu/themes/seasons/css/normalize.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="http://digitalcollections.lclark.edu/themes/seasons/css/style.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="http://digitalcollections.lclark.edu/themes/seasons/css/custom_style.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="http://digitalcollections.lclark.edu/themes/seasons/css/print.css" media="print" rel="stylesheet" type="text/css" >  <link href="http://digitalcollections.lclark.edu/application/views/scripts/javascripts/jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.min.css" media="all" rel="stylesheet" type="text/css" >
+ 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"> 
+    
+
+    
+    <!-- JavaScripts -->
+        
+    <!--  jplayer   -->
+   <!-- <script type="text/javascript" src="http://digitalcollections.lclark.edu/application/views/scripts/javascripts/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>-->
+        <!-- FlexSlider -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="http://digitalcollections.lclark.edu/themes/seasons/javascripts/vendor/jquery-flexslider.js"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "fade",
+                directionNav: ".flex-direction-nav", 
+                keyboardNav: true,
+                
+                controlNav: false,
+                controlsContainer: ".flex-container"
+            });
+        });
+    </script>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"http:\/\/digitalcollections.lclark.edu\/application\/views\/scripts\/javascripts\/vendor\/jquery.js\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"http:\/\/digitalcollections.lclark.edu\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/application/views/scripts/javascripts/login.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/plugins/OpenSeadragon/views/shared/openseadragon/openseadragon.min.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/plugins/OpenSeadragon/views/shared/openseadragon/settings.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/plugins/Commenting/views/public/javascripts/commenting.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/application/views/scripts/javascripts/vendor/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript">
+    //<!--
+    Commenting.pluginRoot = 'http://digitalcollections.lclark.edu/commenting/comment/'    //-->
+</script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/plugins/Html5Media/views/shared/mediaelement/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/application/views/scripts/javascripts/vendor/selectivizr.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/application/views/scripts/javascripts/vendor/jquery-accessibleMegaMenu.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/application/views/scripts/javascripts/vendor/respond.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/themes/seasons/javascripts/jquery-extra-selectors.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/themes/seasons/javascripts/seasons.js"></script>
+<script type="text/javascript" src="http://digitalcollections.lclark.edu/application/views/scripts/javascripts/globals.js"></script></head>
+<body class="login">
+    <a href="#content" id="skipnav">Skip to main content</a>
+        <div id="wrap">
+        <!-- customization: added college links above header, Anneliese Dehner, 2015 -->
+        <div class="college_nav_container" >
+            <div class="college_nav" >
+                <span><a href="http://library.lclark.edu/">Aubrey R. Watzek Library</a></span><span><a href="http://www.lclark.edu/">Lewis &amp; Clark College</a></span>
+            </div>
+        </div>  
+        <!-- end customization --> 
+        <header role="banner">
+
+            <div id="site-title">
+                <a href="http://digitalcollections.lclark.edu" ><img src="http://digitalcollections.lclark.edu/files/theme_uploads/23e378ed88db12d7d86e7c47998fb6d0.png" alt="Lewis &amp; Clark Digital Collections" /></a>
+                <!-- custom code: add link to special collections home page below site title -->
+                <div class="special_logo">
+                	<a href="http://specialcollections.lclark.edu/"><img src="http://specialcollections.lclark.edu/wp-content/uploads/2015/03/site_title.jpg" /></a>
+            	</div>
+            </div>
+           <!-- custom code: hide search box on home page -->
+                      
+           <div id="search-container" role="search">
+                                <form id="search-form" name="search-form" action="/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <!-- custom code, change "exhibit" to "guide" in advanced search record type dropdown -->
+                                    <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                                       <!-- custom code, change "exhibit" to "guide" in advanced search record type dropdown -->
+                                    <input type="checkbox" name="record_types[]" id="record_types-Collection" value="Collection" checked="checked"> <label for="record_types-Collection">Collection</label><br>
+                                       <!-- custom code, change "exhibit" to "guide" in advanced search record type dropdown -->
+                                 <input type="checkbox" name="record_types[]" id="record_types-Exhibit" value="Exhibit" checked="checked"> <label for="record_types-Exhibit">Guide</label><br>
+
+                                   </fieldset>
+                <p><a href="/items/search">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+                            </div> 
+                                </header>
+
+        <nav id="top-nav" class="top" role="navigation">
+            <ul class="navigation">
+    <li>
+        <a href="/items/browse">Items</a>
+    </li>
+    <li>
+        <a href="/collections/browse">Collections</a>
+    </li>
+    <li>
+        <a href="/exhibits">Guides</a>
+    </li>
+    <li>
+        <a href="/about">About</a>
+    </li>
+    <li>
+        <a href="/contact">Contact</a>
+    </li>
+</ul>        </nav>
+
+        <div id="content" role="main" tabindex="-1">
+            <h1>Log In</h1>
+
+<p id="login-links">
+<span id="backtosite"><a href="http://digitalcollections.lclark.edu" >Go to Home Page</a>
+</span>  |  <span id="forgotpassword"><a href="/users/forgot-password">Lost your password?</a></span>
+</p>
+
+    
+<form id="login-form" enctype="application/x-www-form-urlencoded" method="post" action="/users/login">
+<fieldset id="fieldset-login">
+<div class="field"><div id="username-label" class="two columns alpha"><label for="username" class="required">Username</label></div>
+<div class="inputs six columns omega">
+<input type="text" name="username" id="username" value=""></div></div>
+<div class="field"><div id="password-label" class="two columns alpha"><label for="password" class="required">Password</label></div>
+<div class="inputs six columns omega">
+<input type="password" name="password" id="password" value=""></div></div>
+<div class="field"><div id="remember-label" class="two columns alpha"><label for="remember" class="optional">Remember Me?</label></div>
+<div class="inputs six columns omega">
+<input type="hidden" name="remember" value="0"><input type="checkbox" name="remember" id="remember" value="1" class="checkbox"></div></div></fieldset>
+<div>
+<input type="submit" name="submit" id="submit" value="Log In"></div></form>
+</div><!-- end content -->
+
+<footer role="contentinfo">
+
+        <div id="custom-footer-text">
+                        <p><a href="http://specialcollections.lclark.edu/">Lewis &amp; Clark Special Collections and Archives</a> <span>|</span> <a href="http://library.lclark.edu/">Aubrey R. Watzek Library</a> <span>|</span> <a href="http://www.lclark.edu/">Lewis &amp; Clark College</a> <span>|</span> 0615 S.W. Palatine Hill Road <span>|</span> Portland, Oregon 97219 USA <span>|</span> 503-768-7758 <span>|</span> archives@lclark.edu</p>
+                                </div>
+
+        <!--<p>Proudly powered by <a href="http://omeka.org">Omeka</a>.</p> -->
+
+    
+</footer>
+
+</div><!--end wrap-->
+
+<script type="text/javascript">
+jQuery(document).ready(function () {
+    Omeka.showAdvancedForm();
+    Omeka.skipNav();
+    Omeka.megaMenu("#top-nav");
+    Seasons.mobileSelectNav();
+});
+</script>
+ <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1906252-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+</body>
+
+</html>
